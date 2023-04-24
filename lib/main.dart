@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'D-Tree International phase 1 exercise',
+      title: 'Rest API Data',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

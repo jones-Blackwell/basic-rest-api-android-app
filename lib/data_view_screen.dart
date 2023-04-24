@@ -47,7 +47,7 @@ class _DataViewScreenState extends State<DataViewScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: const Text('D-Tree Phase 1 Exercise'),
+          title: const Text('Group 1 Rest API Data'),
         ),
       body: FutureBuilder<List<dynamic>>(
         future: apiData,
