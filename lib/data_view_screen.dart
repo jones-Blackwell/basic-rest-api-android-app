@@ -13,7 +13,6 @@ class DataViewScreen extends StatefulWidget {
 
 class _DataViewScreenState extends State<DataViewScreen> {
   final searchController = TextEditingController();
-  late Future<List<String>> futureNumbersList;
   List<dynamic> data = [];
   List<dynamic> filteredData = [];
   bool loaded = false;
@@ -23,7 +22,6 @@ class _DataViewScreenState extends State<DataViewScreen> {
   void initState() {
     super.initState();
     apiData = Controller.getData();
-    futureNumbersList = Controller().slowNumbers();
   }
 
 @override
